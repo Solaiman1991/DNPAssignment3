@@ -5,10 +5,8 @@ using System.Text.Json.Serialization;
 namespace Assignment2.Data.Models {
 public class Person :IPerson {
     
-    [Required]
-    [NotNull, Range(1, int.MaxValue, ErrorMessage = "Please enter a value bigger than {1}")]
     
-   [JsonPropertyName("Id")] 
+  // [JsonPropertyName("Id")] 
     public int Id { get; set; }
     
     //[JsonPropertyName("firstName")] 
