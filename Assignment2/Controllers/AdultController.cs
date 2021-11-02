@@ -25,6 +25,7 @@ namespace Assignment2.Controllers
         //     try
         //     {
         //         IList<Adult> adults = await adultService.Getadults();
+        //
         //         return Ok(adults);
         //     }
         //     catch (Exception e)
