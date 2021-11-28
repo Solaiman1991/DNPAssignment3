@@ -12,24 +12,6 @@ namespace Assignment2.DataAccess
         public UserDao()
         {
             using DatabaseContext databaseContext = new DatabaseContext();
-            //     User seeIfTroelsThere = databaseContext.Users.FirstOrDefault(user => user.UserName.Equals("Troels"));
-            //     
-            //     if (seeIfTroelsThere == null)
-            //     {
-            //         databaseContext.Users.Add(new User()
-            //         {
-            //             UserName = "Troels",
-            //             Password = "Troels1",
-            //             Role = new List<Role>() {new Role() {RoleName = "Admin"}}
-            //         });
-            //         databaseContext.Users.Add(new User()
-            //         {
-            //             Username = "Kasper",
-            //             Password = "Kasper1",
-            //         });
-            //         databaseContext.SaveChanges(); 
-            //     }
-            //
         }
 
         public User ValidateUser(string userName, string password)
